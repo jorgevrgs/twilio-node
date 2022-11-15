@@ -78,7 +78,7 @@ declare class TokenInstance extends SerializableClass {
   accountSid: string;
   dateCreated: Date;
   dateUpdated: Date;
-  iceServers: string[];
+  iceServers: RTCConfiguration['iceServers'];
   password: string;
   /**
    * Provide a user-friendly representation
